@@ -3,10 +3,10 @@ body {
 }
 
 .header {
-    columns: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
 }
 
 .navbar {
@@ -18,11 +18,25 @@ body {
 }
 
 .navbar a {
+  font-size: 20px;
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 50px;
+}
+
+.navbar a.active {
+  background-color: blue;
+  color: yellow;
 }
 
 .navbar a:hover {
   background-color: #555;
+  color: white;
+  text-transform: uppercase;
+  cursor: crosshair;
+}
+
+.mainpic img {
+  width: 100%;
+  height: auto;
 }
