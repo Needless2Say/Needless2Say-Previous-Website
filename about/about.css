@@ -1,5 +1,9 @@
 body {
   background-color: black;
+  background-image: url(../space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
   
 .header {
