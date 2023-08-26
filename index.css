@@ -1,5 +1,8 @@
 body {
-  background-color: black;
+  background-image: url(space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -25,12 +28,12 @@ body {
 }
 
 .navbar a.active {
-  background-color: blue;
+  background-color: rgb(6, 6, 167);
   color: yellow;
 }
 
 .navbar a:hover {
-  background-color: #555;
+  background-color: #454545;
   color: white;
   text-transform: uppercase;
   cursor: crosshair;

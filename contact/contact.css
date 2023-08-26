@@ -1,37 +1,114 @@
 body {
-    background-color: black;
-  }
+  background-image: url(../space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
   
-  .header {
-    color: white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
-  }
+.header {
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
   
-  .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    height: 60px;
-  }
-  
-  .navbar a {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    padding: 10px 50px;
-  }
-  
-  .navbar a.active {
-    background-color: blue;
-    color: yellow;
-  }
-  
-  .navbar a:hover {
-    background-color: #555;
-    color: white;
-    text-transform: uppercase;
-    cursor: crosshair;
-  }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  height: 60px;
+}
+
+.navbar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px;
+}
+
+.navbar a.active {
+  background-color: rgb(6, 6, 167);
+  color: yellow;
+}
+
+.navbar a:hover {
+  background-color: #454545;
+  color: white;
+  text-transform: uppercase;
+  cursor: crosshair;
+}
+
+/* General Card CSS */
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Email Specific CSS */
+.email, .email_link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.email {
+  color: blue;
+  margin-right: 2%;
+}
+
+.email_link {
+  color: yellow;
+  margin-left: 2%;
+}
+
+/* LinkedIn Specific CSS */
+.linkedin {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.linkedin a {
+  text-decoration: none;
+  color: rgb(10, 102, 194);
+}
+
+.linkedin a:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: crosshair;
+}
+
+/* GitHub Specific CSS */
+.github {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.github a {
+  text-decoration: none;
+  color: white;
+}
+
+.github a:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: crosshair;
+}
+
+/* Instagram Specific CSS */
+.instagram {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: white;
+}
+
+.instagram a:hover {
+  text-decoration: underline;
+  color: red;
+  cursor: crosshair;
+}
