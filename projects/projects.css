@@ -39,3 +39,47 @@ body {
   text-transform: uppercase;
   cursor: crosshair;
 }
+
+/* List CSS */
+
+
+/* Project CSS */
+.project {
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+/* Title CSS */
+.title {
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 25%;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  overflow-wrap: normal;
+}
+
+/* Description CSS */
+.description {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+  color: white;
+}
+
+li.list_ {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+li.inner_list_ {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  padding-top: 10px;
+}
