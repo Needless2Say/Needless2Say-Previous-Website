@@ -39,3 +39,18 @@ body {
   text-transform: uppercase;
   cursor: crosshair;
 }
+
+/* Resume Section CSS */
+.resume_section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Resume CSS */
+.resume_section iframe {
+  width: 50%;
+  height: 1000px;
+}
