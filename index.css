@@ -19,6 +19,7 @@ body {
   align-items: center;
   background-color: #333;
   height: 60px;
+  overflow: auto;
 }
 
 .navbar a {
@@ -43,4 +44,25 @@ body {
 .mainpic img {
   width: 100%;
   height: auto;
+}
+
+/* Styles for screens larger than 1024px */
+@media (min-width: 851x) {
+  /* Your CSS rules here */
+
+
+
+
+
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 850px) {
+  /* Your CSS rules here */
+
+
+
+
+
+
 }
