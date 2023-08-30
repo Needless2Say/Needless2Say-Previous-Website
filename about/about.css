@@ -44,8 +44,7 @@ body {
 /* About Section */
 .leftcol {
   float: left;
-  width: 23%;
-  margin-left: 1%;
+  width: 26%;
   margin-right: 1%;
 }
 
@@ -55,14 +54,13 @@ body {
 }
 
 .rightcol {
-  float: right;
-  width: 69%;
+  float: left;
+  width: 65%;
   margin-left: 3%;
-  margin-right: 3%;
 }
 
 .rightcol div.card p {
-  font-size: 2vw;
+  font-size: 30px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
